@@ -16,4 +16,6 @@ THC_API void THCCachingAllocator_recordStream(void *ptr, THCStream* stream);
 THC_API std::mutex* THCCachingAllocator_getCudaFreeMutex();
 #endif
 
+THC_API void THCCachingAllocator_emptyCache(void);
+
 #endif
